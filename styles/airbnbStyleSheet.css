@@ -1,0 +1,36 @@
+/** General
+* Typography
+* images
+* Buttons
+* forms
+Layout
+**  */
+
+/* **TYPOGRAPHY** */
+
+/* **IMAGES** */
+img.profile-button {
+  width: 20px;
+  border-radius: 100%;
+}
+
+/* **BUTTONS** */
+button.profile-button {
+  margin: 3px;
+}
+
+/* **FORMS** */
+button.logout-button {
+  margin: 3px;
+}
+
+/* **LAYOUT** */
+nav.top-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nav-buttons {
+  align-self: center;
+  display: inline-flex;
+  justify-content: end;
+}
