@@ -16,6 +16,9 @@ img.profile-button {
   width: 20px;
   border-radius: 100%;
 }
+img.house-main-photo {
+  height: inherit;
+}
 
 /* **BUTTONS** */
 button.profile-button {
@@ -111,9 +114,4 @@ div.card-location-wrapper1 {
 
 a.card-location {
   text-decoration: none;
-}
-
-section.house-photos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
