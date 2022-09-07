@@ -20,6 +20,9 @@ img.profile-button {
 /* **BUTTONS** */
 button.profile-button {
   margin: 3px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 button.nav-house-search {
@@ -31,6 +34,9 @@ button.nav-house-search {
 /* **FORMS** */
 button.logout-button {
   margin: 5px 40px 5px 5px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .location-button {
@@ -97,4 +103,12 @@ section.search-page-results {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 30px;
   grid-gap: 30px;
+}
+div.card-location-wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+a.card-location {
+  text-decoration: none;
 }
