@@ -22,33 +22,55 @@ button.profile-button {
   margin: 3px;
 }
 
+button.nav-house-search {
+  background-color: darkseagreen;
+  color: white;
+  margin-left: 40px;
+}
+
 /* **FORMS** */
 button.logout-button {
   margin: 5px 40px 5px 5px;
 }
 
 .location-button {
-  width: 250px;
+  width: 220px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 40px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .rooms-button {
-  width: 300px;
+  width: 270px;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .max-price-button {
-  width: 250px;
+  width: 220px;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.price-sort-button {
+  width: 220px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input.nav-house-search {
+  width: 270px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* **LAYOUT** */
@@ -68,4 +90,11 @@ nav.top-nav {
   height: 50px;
   padding: 5px;
   display: inline-flex;
+}
+
+section.search-page-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 30px;
+  grid-gap: 30px;
 }
