@@ -7,6 +7,9 @@ Layout
 **  */
 
 /* **TYPOGRAPHY** */
+.nav-search {
+  background-color: lightgray;
+}
 
 /* **IMAGES** */
 img.profile-button {
@@ -21,16 +24,40 @@ button.profile-button {
 
 /* **FORMS** */
 button.logout-button {
-  margin: 3px 40px 3px 3px;
+  margin: 5px 40px 5px 5px;
+}
+
+.location-button {
+  width: 250px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 40px;
+  margin-right: 5px;
+}
+
+.rooms-button {
+  width: 250px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* **LAYOUT** */
 nav.top-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 5px;
 }
 .nav-buttons {
   align-self: center;
   display: inline-flex;
   justify-content: end;
+}
+
+.nav-search {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  display: inline-flex;
 }
