@@ -23,12 +23,6 @@ img.house-main-photo {
 
 /* **LAYOUT** */
 
-section.search-page-results {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 30px;
-  grid-gap: 30px;
-}
 div.card-location-wrapper1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
